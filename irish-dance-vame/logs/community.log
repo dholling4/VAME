@@ -1,0 +1,25 @@
+[LOGGING STARTED AT: 2026-04-29 10-40-55]2026-04-29 10:40:55.139 INFO  --- [MainThread] vame.analysis.community_analysis : 494 : ---------------------------------------------------------------------
+2026-04-29 10:40:55.139 INFO  --- [MainThread] vame.analysis.community_analysis : 495 : Community analysis for model: VAME 
+
+2026-04-29 10:40:55.139 INFO  --- [MainThread] vame.analysis.community_analysis : 497 : Community analysis for segmentation algorithm hmm with 8 clusters
+2026-04-29 10:40:55.254 INFO  --- [MainThread] vame.analysis.community_analysis : 524 : Cohort motif labels from hmm saved
+2026-04-29 10:40:55.297 INFO  --- [MainThread] vame.analysis.community_analysis : 532 : Cohort motif counts from hmm saved
+2026-04-29 10:40:55.297 INFO  --- [MainThread] vame.analysis.community_analysis : 533 : [ 27. 288.  20.  34.   9.   6.  30.  10.]
+2026-04-29 10:40:55.339 INFO  --- [MainThread] vame.analysis.community_analysis : 547 : Cohort transition matrix saved
+2026-04-29 10:40:58.421 INFO  --- [MainThread] vame.analysis.community_analysis : 326 : Communities bag:
+2026-04-29 10:40:58.423 INFO  --- [MainThread] vame.analysis.community_analysis : 328 : Community 0: [1]
+2026-04-29 10:40:58.429 INFO  --- [MainThread] vame.analysis.community_analysis : 328 : Community 1: [6]
+2026-04-29 10:40:58.429 INFO  --- [MainThread] vame.analysis.community_analysis : 328 : Community 2: [5, 4, 3, 2, 7, 0]
+2026-04-29 10:40:58.458 INFO  --- [MainThread] vame.analysis.community_analysis : 567 : Community bag saved
+2026-04-29 10:40:58.484 INFO  --- [MainThread] vame.analysis.community_analysis : 581 : Community labels saved
+2026-04-29 10:40:58.557 INFO  --- [MainThread] vame.analysis.community_analysis : 497 : Community analysis for segmentation algorithm kmeans with 8 clusters
+2026-04-29 10:40:58.635 INFO  --- [MainThread] vame.analysis.community_analysis : 524 : Cohort motif labels from kmeans saved
+2026-04-29 10:40:58.672 INFO  --- [MainThread] vame.analysis.community_analysis : 532 : Cohort motif counts from kmeans saved
+2026-04-29 10:40:58.672 INFO  --- [MainThread] vame.analysis.community_analysis : 533 : [ 28. 290.  18.  25.  13.  10.  16.  24.]
+2026-04-29 10:40:58.713 INFO  --- [MainThread] vame.analysis.community_analysis : 547 : Cohort transition matrix saved
+2026-04-29 10:40:59.426 INFO  --- [MainThread] vame.analysis.community_analysis : 326 : Communities bag:
+2026-04-29 10:40:59.431 INFO  --- [MainThread] vame.analysis.community_analysis : 328 : Community 0: [1]
+2026-04-29 10:40:59.431 INFO  --- [MainThread] vame.analysis.community_analysis : 328 : Community 1: [6]
+2026-04-29 10:40:59.431 INFO  --- [MainThread] vame.analysis.community_analysis : 328 : Community 2: [0, 5, 4, 2, 7, 3]
+2026-04-29 10:40:59.456 INFO  --- [MainThread] vame.analysis.community_analysis : 567 : Community bag saved
+2026-04-29 10:40:59.490 INFO  --- [MainThread] vame.analysis.community_analysis : 581 : Community labels saved

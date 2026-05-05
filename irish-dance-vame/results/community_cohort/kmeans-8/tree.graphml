@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="undirected"><node id="Root"/>
+<node id="1"/>
+<node id="h_6_28"/>
+<node id="6"/>
+<node id="h_5_5"/>
+<node id="h_5_4"/>
+<node id="h_3_4"/>
+<node id="h_5_3"/>
+<node id="h_2_3"/>
+<node id="7"/>
+<node id="3"/>
+<node id="0"/>
+<node id="5"/>
+<node id="4"/>
+<node id="2"/>
+<edge source="Root" target="1"/>
+<edge source="Root" target="h_6_28"/>
+<edge source="h_6_28" target="6"/>
+<edge source="h_6_28" target="h_5_5"/>
+<edge source="h_5_5" target="h_5_4"/>
+<edge source="h_5_5" target="h_3_4"/>
+<edge source="h_5_4" target="h_5_3"/>
+<edge source="h_5_4" target="h_2_3"/>
+<edge source="h_3_4" target="7"/>
+<edge source="h_3_4" target="3"/>
+<edge source="h_5_3" target="0"/>
+<edge source="h_5_3" target="5"/>
+<edge source="h_2_3" target="4"/>
+<edge source="h_2_3" target="2"/>
+</graph></graphml>

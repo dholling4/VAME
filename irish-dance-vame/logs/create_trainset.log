@@ -1,0 +1,17 @@
+[LOGGING STARTED AT: 2026-04-29 10-36-37]2026-04-29 10:36:37.224 INFO  --- [MainThread] vame.model.create_training : 320 : Creating training dataset...
+2026-04-29 10:36:37.274 INFO  --- [MainThread] vame.model.create_training : 187 : Session irish_dance_pose_dlc: test chunk 102:168 (length 66)
+2026-04-29 10:36:37.370 INFO  --- [MainThread] vame.model.create_training : 240 : Metadata file saved for feature provenance tracking
+2026-04-29 10:36:37.372 INFO  --- [MainThread] vame.model.create_training : 241 : Metadata: C:\Users\ano\Box\myBox\from bernard\VAME-1\irish-dance-vame\data\train\metadata.json
+2026-04-29 10:36:37.373 INFO  --- [MainThread] vame.model.create_training : 243 : Length of train data: 377
+2026-04-29 10:36:37.373 INFO  --- [MainThread] vame.model.create_training : 244 : Length of test data: 66
+2026-04-29 10:36:37.375 INFO  --- [MainThread] vame.model.create_training : 245 : Number of features: 23
+2026-04-29 10:36:37.502 INFO  --- [MainThread] vame.model.create_training : 335 : A training and test set has been created. Next step: vame.train_model()
+
+[LOGGING STARTED AT: 2026-04-29 10-39-11]2026-04-29 10:39:11.507 INFO  --- [MainThread] vame.model.create_training : 320 : Creating training dataset...
+2026-04-29 10:39:11.567 INFO  --- [MainThread] vame.model.create_training : 187 : Session irish_dance_pose_dlc: test chunk 102:168 (length 66)
+2026-04-29 10:39:11.725 INFO  --- [MainThread] vame.model.create_training : 240 : Metadata file saved for feature provenance tracking
+2026-04-29 10:39:11.725 INFO  --- [MainThread] vame.model.create_training : 241 : Metadata: C:\Users\ano\Box\myBox\from bernard\VAME-1\irish-dance-vame\data\train\metadata.json
+2026-04-29 10:39:11.725 INFO  --- [MainThread] vame.model.create_training : 243 : Length of train data: 377
+2026-04-29 10:39:11.725 INFO  --- [MainThread] vame.model.create_training : 244 : Length of test data: 66
+2026-04-29 10:39:11.725 INFO  --- [MainThread] vame.model.create_training : 245 : Number of features: 23
+2026-04-29 10:39:11.870 INFO  --- [MainThread] vame.model.create_training : 335 : A training and test set has been created. Next step: vame.train_model()

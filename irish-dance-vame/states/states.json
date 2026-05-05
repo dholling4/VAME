@@ -1,0 +1,43 @@
+{
+    "update_config": {
+        "execution_state": "success",
+        "config_update": {
+            "num_features": 23
+        }
+    },
+    "preprocessing": {
+        "execution_state": "success",
+        "centered_reference_keypoint": "left_hip",
+        "orientation_reference_keypoint": "right_hip",
+        "run_lowconf_cleaning": true,
+        "run_egocentric_alignment": true,
+        "run_outlier_cleaning": true,
+        "run_savgol_filtering": true,
+        "run_rescaling": true,
+        "save_logs": false
+    },
+    "preprocessing_visualization": {},
+    "create_trainset": {
+        "execution_state": "success",
+        "test_fraction": 0.15,
+        "split_mode": "mode_2"
+    },
+    "train_model": {
+        "execution_state": "success"
+    },
+    "evaluate_model": {
+        "execution_state": "success",
+        "use_snapshots": false
+    },
+    "segment_session": {
+        "execution_state": "success"
+    },
+    "motif_videos": {},
+    "community": {
+        "execution_state": "success",
+        "cut_tree": 2
+    },
+    "community_videos": {},
+    "generate_reports": {},
+    "generative_model": {}
+}

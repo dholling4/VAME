@@ -1,0 +1,27 @@
+[LOGGING STARTED AT: 2026-04-29 10-40-50]2026-04-29 10:40:50.890 INFO  --- [MainThread] vame.analysis.pose_segmentation : 169 : ---------------------------------------------------------------------
+2026-04-29 10:40:50.896 INFO  --- [MainThread] vame.analysis.pose_segmentation : 170 : Embedding latent vectors for VAME model (OPTIMIZED)
+2026-04-29 10:40:50.923 INFO  --- [MainThread] vame.analysis.pose_segmentation : 194 : Embedding of latent vector for file irish_dance_pose_dlc
+2026-04-29 10:40:51.99 INFO  --- [MainThread] vame.analysis.pose_segmentation : 225 : Creating 424 sliding windows for session irish_dance_pose_dlc
+2026-04-29 10:40:51.110 WARNING --- [MainThread] vame.analysis.pose_segmentation : 245 : Stride tricks failed (Unexpected window shape: (424, 23, 20)), using fallback method
+2026-04-29 10:40:51.115 INFO  --- [MainThread] vame.analysis.pose_segmentation : 83 : Processing irish_dance_pose_dlc:   0%|          | 0/7 [00:00<?, ?it/s]
+2026-04-29 10:40:51.221 INFO  --- [MainThread] vame.analysis.pose_segmentation : 83 : Processing irish_dance_pose_dlc:  14%|#4        | 1/7 [00:00<00:00,  9.37it/s]
+2026-04-29 10:40:51.400 INFO  --- [MainThread] vame.analysis.pose_segmentation : 83 : Processing irish_dance_pose_dlc:  43%|####2     | 3/7 [00:00<00:00, 10.64it/s]
+2026-04-29 10:40:51.565 INFO  --- [MainThread] vame.analysis.pose_segmentation : 83 : Processing irish_dance_pose_dlc:  71%|#######1  | 5/7 [00:00<00:00, 11.38it/s]
+2026-04-29 10:40:51.727 INFO  --- [MainThread] vame.analysis.pose_segmentation : 83 : Processing irish_dance_pose_dlc: 100%|##########| 7/7 [00:00<00:00, 11.77it/s]
+2026-04-29 10:40:51.727 INFO  --- [MainThread] vame.analysis.pose_segmentation : 83 : Processing irish_dance_pose_dlc: 100%|##########| 7/7 [00:00<00:00, 11.44it/s]
+2026-04-29 10:40:51.775 INFO  --- [MainThread] vame.analysis.pose_segmentation : 313 : Successfully processed 424 windows for session irish_dance_pose_dlc
+2026-04-29 10:40:51.777 INFO  --- [MainThread] vame.analysis.pose_segmentation : 672 : ---------------------------------------------------------------------
+2026-04-29 10:40:51.777 INFO  --- [MainThread] vame.analysis.pose_segmentation : 673 : Pose segmentation for VAME model: VAME 
+
+2026-04-29 10:40:51.779 INFO  --- [MainThread] vame.analysis.pose_segmentation : 692 : Starting segmentation for hmm algorithm and cluster size 8...
+2026-04-29 10:40:51.779 INFO  --- [MainThread] vame.analysis.pose_segmentation : 704 : Apply the same segmentation of latent vectors for all sessions, 8 clusters
+2026-04-29 10:40:51.779 INFO  --- [MainThread] vame.analysis.pose_segmentation : 461 : Using a HMM as segmentation algorithm!
+2026-04-29 10:40:54.417 INFO  --- [MainThread] vame.analysis.pose_segmentation : 410 : Saved irish_dance_pose_dlc segmentation data
+2026-04-29 10:40:54.425 INFO  --- [MainThread] vame.analysis.pose_segmentation : 713 : You succesfully extracted motifs with VAME! From here, you can proceed running vame.community() to get the full picture of the spatiotemporal dynamic. To get an idea of the behavior captured by VAME, run vame.motif_videos(). This will leave you with short snippets of certain movements.
+2026-04-29 10:40:54.426 INFO  --- [MainThread] vame.analysis.pose_segmentation : 718 : To visualize the average motif usage across sessions, run vame.visualization.plot_motif_thresholding.
+2026-04-29 10:40:54.427 INFO  --- [MainThread] vame.analysis.pose_segmentation : 692 : Starting segmentation for kmeans algorithm and cluster size 8...
+2026-04-29 10:40:54.427 INFO  --- [MainThread] vame.analysis.pose_segmentation : 704 : Apply the same segmentation of latent vectors for all sessions, 8 clusters
+2026-04-29 10:40:54.429 INFO  --- [MainThread] vame.analysis.pose_segmentation : 448 : Using kmeans as segmentation algorithm!
+2026-04-29 10:40:54.933 INFO  --- [MainThread] vame.analysis.pose_segmentation : 410 : Saved irish_dance_pose_dlc segmentation data
+2026-04-29 10:40:54.933 INFO  --- [MainThread] vame.analysis.pose_segmentation : 713 : You succesfully extracted motifs with VAME! From here, you can proceed running vame.community() to get the full picture of the spatiotemporal dynamic. To get an idea of the behavior captured by VAME, run vame.motif_videos(). This will leave you with short snippets of certain movements.
+2026-04-29 10:40:54.933 INFO  --- [MainThread] vame.analysis.pose_segmentation : 718 : To visualize the average motif usage across sessions, run vame.visualization.plot_motif_thresholding.

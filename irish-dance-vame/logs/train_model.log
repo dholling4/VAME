@@ -1,0 +1,155 @@
+[LOGGING STARTED AT: 2026-04-29 10-39-12]2026-04-29 10:39:12.53 INFO  --- [MainThread] vame.model.rnn_vae : 559 : Train Variational Autoencoder - model name: VAME 
+
+2026-04-29 10:39:12.240 INFO  --- [MainThread] vame.model.rnn_vae : 575 : TensorBoard logging enabled. Log directory: C:\Users\ano\Box\myBox\from bernard\VAME-1\irish-dance-vame\logs\tensorboard\VAME
+2026-04-29 10:39:12.241 INFO  --- [MainThread] vame.model.rnn_vae : 576 : To view logs, run: tensorboard --logdir=C:\Users\ano\Box\myBox\from bernard\VAME-1\irish-dance-vame\logs\tensorboard --port=6006
+2026-04-29 10:39:12.243 INFO  --- [MainThread] vame.model.rnn_vae : 619 : Latent Dimensions: 10, Time window: 20, Batch Size: 64, Beta: 1, lr: 0.0005
+
+2026-04-29 10:39:13.209 INFO  --- [MainThread] vame.model.rnn_vae : 655 : Model graph logged to TensorBoard
+2026-04-29 10:39:32.236 INFO  --- [MainThread] vame.model.rnn_vae : 720 : Scheduler step size: 100, Scheduler gamma: 0.20
+
+2026-04-29 10:39:32.245 INFO  --- [MainThread] vame.model.rnn_vae : 736 : Start training... 
+2026-04-29 10:39:32.250 INFO  --- [MainThread] vame.model.rnn_vae : 83 : Training Model:   0%|          | 0/24 [00:00<?, ?epoch/s]
+2026-04-29 10:39:35.143 INFO  --- [MainThread] vame.model.rnn_vae : 366 : Train loss: 41682.596, MSE-Loss: 33058.548, MSE-Future-Loss 8624.047, KL-Loss: 0.000, Kmeans-Loss: 0.000, weight: 0.00
+2026-04-29 10:39:35.415 INFO  --- [MainThread] vame.model.rnn_vae : 492 : Test loss: 3852.738, MSE-Loss: 3852.738, KL-Loss: 0.000, Kmeans-Loss: 0.000
+2026-04-29 10:39:35.686 INFO  --- [MainThread] vame.model.rnn_vae : 926 : 
+
+2026-04-29 10:39:35.687 INFO  --- [MainThread] vame.model.rnn_vae : 83 : Training Model:   4%|4         | 1/24 [00:03<01:19,  3.44s/epoch]
+2026-04-29 10:39:38.408 INFO  --- [MainThread] vame.model.rnn_vae : 366 : Train loss: 25070.882, MSE-Loss: 19689.485, MSE-Future-Loss 5381.397, KL-Loss: 0.000, Kmeans-Loss: 0.000, weight: 0.00
+2026-04-29 10:39:38.705 INFO  --- [MainThread] vame.model.rnn_vae : 492 : Test loss: 1667.733, MSE-Loss: 1667.733, KL-Loss: 0.000, Kmeans-Loss: 0.000
+2026-04-29 10:39:39.89 INFO  --- [MainThread] vame.model.rnn_vae : 926 : 
+
+2026-04-29 10:39:39.97 INFO  --- [MainThread] vame.model.rnn_vae : 83 : Training Model:   8%|8         | 2/24 [00:06<01:15,  3.42s/epoch]
+2026-04-29 10:39:41.606 INFO  --- [MainThread] vame.model.rnn_vae : 366 : Train loss: 17033.625, MSE-Loss: 13157.693, MSE-Future-Loss 3874.213, KL-Loss: 1.301, Kmeans-Loss: 0.419, weight: 0.25
+2026-04-29 10:39:41.957 INFO  --- [MainThread] vame.model.rnn_vae : 492 : Test loss: 435.685, MSE-Loss: 434.536, KL-Loss: 0.918, Kmeans-Loss: 0.232
+2026-04-29 10:39:42.432 INFO  --- [MainThread] vame.model.rnn_vae : 926 : 
+
+2026-04-29 10:39:42.443 INFO  --- [MainThread] vame.model.rnn_vae : 83 : Training Model:  12%|#2        | 3/24 [00:10<01:11,  3.39s/epoch]
+2026-04-29 10:39:44.990 INFO  --- [MainThread] vame.model.rnn_vae : 366 : Train loss: 15767.326, MSE-Loss: 11991.211, MSE-Future-Loss 3773.877, KL-Loss: 1.532, Kmeans-Loss: 0.707, weight: 0.50
+2026-04-29 10:39:45.359 INFO  --- [MainThread] vame.model.rnn_vae : 492 : Test loss: 517.953, MSE-Loss: 515.997, KL-Loss: 1.547, Kmeans-Loss: 0.409
+2026-04-29 10:39:45.769 INFO  --- [MainThread] vame.model.rnn_vae : 926 : 
+
+2026-04-29 10:39:45.770 INFO  --- [MainThread] vame.model.rnn_vae : 83 : Training Model:  17%|#6        | 4/24 [00:13<01:07,  3.36s/epoch]
+2026-04-29 10:39:48.357 INFO  --- [MainThread] vame.model.rnn_vae : 366 : Train loss: 12501.579, MSE-Loss: 9401.136, MSE-Future-Loss 3096.807, KL-Loss: 2.562, Kmeans-Loss: 1.073, weight: 0.75
+2026-04-29 10:39:48.644 INFO  --- [MainThread] vame.model.rnn_vae : 492 : Test loss: 815.764, MSE-Loss: 811.727, KL-Loss: 3.310, Kmeans-Loss: 0.727
+2026-04-29 10:39:48.644 INFO  --- [MainThread] vame.model.rnn_vae : 827 : Saving model snapshot!
+
+2026-04-29 10:39:49.132 INFO  --- [MainThread] vame.model.rnn_vae : 926 : 
+
+2026-04-29 10:39:49.138 INFO  --- [MainThread] vame.model.rnn_vae : 83 : Training Model:  21%|##        | 5/24 [00:16<01:03,  3.36s/epoch]
+2026-04-29 10:39:51.713 INFO  --- [MainThread] vame.model.rnn_vae : 366 : Train loss: 10853.207, MSE-Loss: 8067.055, MSE-Future-Loss 2780.206, KL-Loss: 4.349, Kmeans-Loss: 1.597, weight: 1.00
+2026-04-29 10:39:52.17 INFO  --- [MainThread] vame.model.rnn_vae : 492 : Test loss: 525.071, MSE-Loss: 520.082, KL-Loss: 4.069, Kmeans-Loss: 0.920
+2026-04-29 10:39:52.38 INFO  --- [MainThread] vame.model.rnn_vae : 812 : Saving model!
+2026-04-29 10:39:52.547 INFO  --- [MainThread] vame.model.rnn_vae : 926 : 
+
+2026-04-29 10:39:52.550 INFO  --- [MainThread] vame.model.rnn_vae : 83 : Training Model:  25%|##5       | 6/24 [00:20<01:00,  3.38s/epoch]
+2026-04-29 10:39:54.986 INFO  --- [MainThread] vame.model.rnn_vae : 366 : Train loss: 10002.674, MSE-Loss: 7572.498, MSE-Future-Loss 2424.532, KL-Loss: 4.086, Kmeans-Loss: 1.558, weight: 1.00
+2026-04-29 10:39:55.255 INFO  --- [MainThread] vame.model.rnn_vae : 492 : Test loss: 368.547, MSE-Loss: 364.357, KL-Loss: 3.388, Kmeans-Loss: 0.802
+2026-04-29 10:39:55.272 INFO  --- [MainThread] vame.model.rnn_vae : 812 : Saving model!
+2026-04-29 10:39:55.870 INFO  --- [MainThread] vame.model.rnn_vae : 926 : 
+
+2026-04-29 10:39:55.874 INFO  --- [MainThread] vame.model.rnn_vae : 83 : Training Model:  29%|##9       | 7/24 [00:23<00:57,  3.36s/epoch]
+2026-04-29 10:39:58.148 INFO  --- [MainThread] vame.model.rnn_vae : 366 : Train loss: 9671.666, MSE-Loss: 7177.811, MSE-Future-Loss 2488.419, KL-Loss: 3.993, Kmeans-Loss: 1.444, weight: 1.00
+2026-04-29 10:39:58.405 INFO  --- [MainThread] vame.model.rnn_vae : 492 : Test loss: 456.016, MSE-Loss: 451.191, KL-Loss: 3.966, Kmeans-Loss: 0.859
+2026-04-29 10:39:58.844 INFO  --- [MainThread] vame.model.rnn_vae : 926 : 
+
+2026-04-29 10:39:58.845 INFO  --- [MainThread] vame.model.rnn_vae : 83 : Training Model:  33%|###3      | 8/24 [00:26<00:51,  3.24s/epoch]
+2026-04-29 10:40:01.559 INFO  --- [MainThread] vame.model.rnn_vae : 366 : Train loss: 9380.963, MSE-Loss: 6997.398, MSE-Future-Loss 2377.950, KL-Loss: 4.223, Kmeans-Loss: 1.392, weight: 1.00
+2026-04-29 10:40:01.835 INFO  --- [MainThread] vame.model.rnn_vae : 492 : Test loss: 447.463, MSE-Loss: 442.600, KL-Loss: 4.015, Kmeans-Loss: 0.848
+2026-04-29 10:40:02.288 INFO  --- [MainThread] vame.model.rnn_vae : 926 : 
+
+2026-04-29 10:40:02.296 INFO  --- [MainThread] vame.model.rnn_vae : 83 : Training Model:  38%|###7      | 9/24 [00:30<00:49,  3.30s/epoch]
+2026-04-29 10:40:04.729 INFO  --- [MainThread] vame.model.rnn_vae : 366 : Train loss: 9069.415, MSE-Loss: 6660.590, MSE-Future-Loss 2403.304, KL-Loss: 4.170, Kmeans-Loss: 1.350, weight: 1.00
+2026-04-29 10:40:05.66 INFO  --- [MainThread] vame.model.rnn_vae : 492 : Test loss: 363.064, MSE-Loss: 358.659, KL-Loss: 3.618, Kmeans-Loss: 0.788
+2026-04-29 10:40:05.77 INFO  --- [MainThread] vame.model.rnn_vae : 812 : Saving model!
+2026-04-29 10:40:05.198 INFO  --- [MainThread] vame.model.rnn_vae : 827 : Saving model snapshot!
+
+2026-04-29 10:40:05.734 INFO  --- [MainThread] vame.model.rnn_vae : 926 : 
+
+2026-04-29 10:40:05.736 INFO  --- [MainThread] vame.model.rnn_vae : 83 : Training Model:  42%|####1     | 10/24 [00:33<00:46,  3.35s/epoch]
+2026-04-29 10:40:08.123 INFO  --- [MainThread] vame.model.rnn_vae : 366 : Train loss: 8881.958, MSE-Loss: 6597.122, MSE-Future-Loss 2279.330, KL-Loss: 4.179, Kmeans-Loss: 1.327, weight: 1.00
+2026-04-29 10:40:08.416 INFO  --- [MainThread] vame.model.rnn_vae : 492 : Test loss: 414.588, MSE-Loss: 410.086, KL-Loss: 3.709, Kmeans-Loss: 0.793
+2026-04-29 10:40:08.843 INFO  --- [MainThread] vame.model.rnn_vae : 926 : 
+
+2026-04-29 10:40:08.845 INFO  --- [MainThread] vame.model.rnn_vae : 83 : Training Model:  46%|####5     | 11/24 [00:36<00:42,  3.27s/epoch]
+2026-04-29 10:40:11.394 INFO  --- [MainThread] vame.model.rnn_vae : 366 : Train loss: 9079.716, MSE-Loss: 6848.876, MSE-Future-Loss 2225.135, KL-Loss: 4.378, Kmeans-Loss: 1.326, weight: 1.00
+2026-04-29 10:40:11.698 INFO  --- [MainThread] vame.model.rnn_vae : 492 : Test loss: 390.320, MSE-Loss: 385.871, KL-Loss: 3.670, Kmeans-Loss: 0.779
+2026-04-29 10:40:12.81 INFO  --- [MainThread] vame.model.rnn_vae : 926 : 
+
+2026-04-29 10:40:12.90 INFO  --- [MainThread] vame.model.rnn_vae : 83 : Training Model:  50%|#####     | 12/24 [00:39<00:39,  3.26s/epoch]
+2026-04-29 10:40:14.789 INFO  --- [MainThread] vame.model.rnn_vae : 366 : Train loss: 9540.395, MSE-Loss: 6970.886, MSE-Future-Loss 2563.803, KL-Loss: 4.378, Kmeans-Loss: 1.328, weight: 1.00
+2026-04-29 10:40:15.109 INFO  --- [MainThread] vame.model.rnn_vae : 492 : Test loss: 385.496, MSE-Loss: 381.091, KL-Loss: 3.635, Kmeans-Loss: 0.770
+2026-04-29 10:40:15.509 INFO  --- [MainThread] vame.model.rnn_vae : 926 : 
+
+2026-04-29 10:40:15.510 INFO  --- [MainThread] vame.model.rnn_vae : 83 : Training Model:  54%|#####4    | 13/24 [00:43<00:36,  3.31s/epoch]
+2026-04-29 10:40:17.916 INFO  --- [MainThread] vame.model.rnn_vae : 366 : Train loss: 9274.237, MSE-Loss: 6937.731, MSE-Future-Loss 2330.866, KL-Loss: 4.335, Kmeans-Loss: 1.305, weight: 1.00
+2026-04-29 10:40:18.148 INFO  --- [MainThread] vame.model.rnn_vae : 492 : Test loss: 383.683, MSE-Loss: 379.329, KL-Loss: 3.597, Kmeans-Loss: 0.758
+2026-04-29 10:40:18.600 INFO  --- [MainThread] vame.model.rnn_vae : 926 : 
+
+2026-04-29 10:40:18.601 INFO  --- [MainThread] vame.model.rnn_vae : 83 : Training Model:  58%|#####8    | 14/24 [00:46<00:32,  3.25s/epoch]
+2026-04-29 10:40:21.71 INFO  --- [MainThread] vame.model.rnn_vae : 366 : Train loss: 8931.339, MSE-Loss: 6598.976, MSE-Future-Loss 2326.659, KL-Loss: 4.406, Kmeans-Loss: 1.297, weight: 1.00
+2026-04-29 10:40:21.351 INFO  --- [MainThread] vame.model.rnn_vae : 492 : Test loss: 364.284, MSE-Loss: 360.096, KL-Loss: 3.448, Kmeans-Loss: 0.741
+2026-04-29 10:40:21.354 INFO  --- [MainThread] vame.model.rnn_vae : 827 : Saving model snapshot!
+
+2026-04-29 10:40:21.823 INFO  --- [MainThread] vame.model.rnn_vae : 926 : 
+
+2026-04-29 10:40:21.823 INFO  --- [MainThread] vame.model.rnn_vae : 83 : Training Model:  62%|######2   | 15/24 [00:49<00:29,  3.24s/epoch]
+2026-04-29 10:40:24.337 INFO  --- [MainThread] vame.model.rnn_vae : 366 : Train loss: 8020.052, MSE-Loss: 5964.714, MSE-Future-Loss 2049.812, KL-Loss: 4.235, Kmeans-Loss: 1.291, weight: 1.00
+2026-04-29 10:40:24.611 INFO  --- [MainThread] vame.model.rnn_vae : 492 : Test loss: 351.004, MSE-Loss: 346.917, KL-Loss: 3.359, Kmeans-Loss: 0.729
+2026-04-29 10:40:24.614 INFO  --- [MainThread] vame.model.rnn_vae : 812 : Saving model!
+2026-04-29 10:40:25.151 INFO  --- [MainThread] vame.model.rnn_vae : 926 : 
+
+2026-04-29 10:40:25.158 INFO  --- [MainThread] vame.model.rnn_vae : 83 : Training Model:  67%|######6   | 16/24 [00:52<00:26,  3.27s/epoch]
+2026-04-29 10:40:27.492 INFO  --- [MainThread] vame.model.rnn_vae : 366 : Train loss: 8340.071, MSE-Loss: 6201.844, MSE-Future-Loss 2132.470, KL-Loss: 4.448, Kmeans-Loss: 1.309, weight: 1.00
+2026-04-29 10:40:27.771 INFO  --- [MainThread] vame.model.rnn_vae : 492 : Test loss: 308.627, MSE-Loss: 304.520, KL-Loss: 3.385, Kmeans-Loss: 0.723
+2026-04-29 10:40:27.775 INFO  --- [MainThread] vame.model.rnn_vae : 812 : Saving model!
+2026-04-29 10:40:28.369 INFO  --- [MainThread] vame.model.rnn_vae : 926 : 
+
+2026-04-29 10:40:28.377 INFO  --- [MainThread] vame.model.rnn_vae : 83 : Training Model:  71%|#######   | 17/24 [00:56<00:22,  3.25s/epoch]
+2026-04-29 10:40:30.943 INFO  --- [MainThread] vame.model.rnn_vae : 366 : Train loss: 8343.249, MSE-Loss: 6198.806, MSE-Future-Loss 2138.718, KL-Loss: 4.410, Kmeans-Loss: 1.314, weight: 1.00
+2026-04-29 10:40:31.216 INFO  --- [MainThread] vame.model.rnn_vae : 492 : Test loss: 303.935, MSE-Loss: 299.961, KL-Loss: 3.275, Kmeans-Loss: 0.699
+2026-04-29 10:40:31.239 INFO  --- [MainThread] vame.model.rnn_vae : 812 : Saving model!
+2026-04-29 10:40:31.848 INFO  --- [MainThread] vame.model.rnn_vae : 926 : 
+
+2026-04-29 10:40:31.848 INFO  --- [MainThread] vame.model.rnn_vae : 83 : Training Model:  75%|#######5  | 18/24 [00:59<00:19,  3.32s/epoch]
+2026-04-29 10:40:34.234 INFO  --- [MainThread] vame.model.rnn_vae : 366 : Train loss: 8580.933, MSE-Loss: 6487.504, MSE-Future-Loss 2087.608, KL-Loss: 4.490, Kmeans-Loss: 1.331, weight: 1.00
+2026-04-29 10:40:34.525 INFO  --- [MainThread] vame.model.rnn_vae : 492 : Test loss: 338.879, MSE-Loss: 334.685, KL-Loss: 3.473, Kmeans-Loss: 0.721
+2026-04-29 10:40:34.892 INFO  --- [MainThread] vame.model.rnn_vae : 926 : 
+
+2026-04-29 10:40:34.894 INFO  --- [MainThread] vame.model.rnn_vae : 83 : Training Model:  79%|#######9  | 19/24 [01:02<00:16,  3.24s/epoch]
+2026-04-29 10:40:36.445 INFO  --- [MainThread] vame.model.rnn_vae : 366 : Train loss: 8144.383, MSE-Loss: 6066.093, MSE-Future-Loss 2072.272, KL-Loss: 4.675, Kmeans-Loss: 1.343, weight: 1.00
+2026-04-29 10:40:36.584 INFO  --- [MainThread] vame.model.rnn_vae : 492 : Test loss: 297.447, MSE-Loss: 293.446, KL-Loss: 3.311, Kmeans-Loss: 0.690
+2026-04-29 10:40:36.589 INFO  --- [MainThread] vame.model.rnn_vae : 812 : Saving model!
+2026-04-29 10:40:36.681 INFO  --- [MainThread] vame.model.rnn_vae : 827 : Saving model snapshot!
+
+2026-04-29 10:40:37.156 INFO  --- [MainThread] vame.model.rnn_vae : 926 : 
+
+2026-04-29 10:40:37.162 INFO  --- [MainThread] vame.model.rnn_vae : 83 : Training Model:  83%|########3 | 20/24 [01:04<00:11,  2.95s/epoch]
+2026-04-29 10:40:38.157 INFO  --- [MainThread] vame.model.rnn_vae : 366 : Train loss: 7544.775, MSE-Loss: 5742.634, MSE-Future-Loss 1796.293, KL-Loss: 4.537, Kmeans-Loss: 1.311, weight: 1.00
+2026-04-29 10:40:38.312 INFO  --- [MainThread] vame.model.rnn_vae : 492 : Test loss: 339.468, MSE-Loss: 335.129, KL-Loss: 3.616, Kmeans-Loss: 0.723
+2026-04-29 10:40:38.696 INFO  --- [MainThread] vame.model.rnn_vae : 926 : 
+
+2026-04-29 10:40:38.696 INFO  --- [MainThread] vame.model.rnn_vae : 83 : Training Model:  88%|########7 | 21/24 [01:06<00:07,  2.52s/epoch]
+2026-04-29 10:40:41.276 INFO  --- [MainThread] vame.model.rnn_vae : 366 : Train loss: 9321.537, MSE-Loss: 7058.687, MSE-Future-Loss 2256.511, KL-Loss: 4.938, Kmeans-Loss: 1.401, weight: 1.00
+2026-04-29 10:40:41.616 INFO  --- [MainThread] vame.model.rnn_vae : 492 : Test loss: 297.126, MSE-Loss: 292.989, KL-Loss: 3.452, Kmeans-Loss: 0.685
+2026-04-29 10:40:41.622 INFO  --- [MainThread] vame.model.rnn_vae : 812 : Saving model!
+2026-04-29 10:40:42.136 INFO  --- [MainThread] vame.model.rnn_vae : 926 : 
+
+2026-04-29 10:40:42.143 INFO  --- [MainThread] vame.model.rnn_vae : 83 : Training Model:  92%|#########1| 22/24 [01:09<00:05,  2.80s/epoch]
+2026-04-29 10:40:44.598 INFO  --- [MainThread] vame.model.rnn_vae : 366 : Train loss: 8836.922, MSE-Loss: 6839.880, MSE-Future-Loss 1990.550, KL-Loss: 5.064, Kmeans-Loss: 1.428, weight: 1.00
+2026-04-29 10:40:44.935 INFO  --- [MainThread] vame.model.rnn_vae : 492 : Test loss: 270.978, MSE-Loss: 266.747, KL-Loss: 3.529, Kmeans-Loss: 0.702
+2026-04-29 10:40:44.941 INFO  --- [MainThread] vame.model.rnn_vae : 812 : Saving model!
+2026-04-29 10:40:45.432 INFO  --- [MainThread] vame.model.rnn_vae : 926 : 
+
+2026-04-29 10:40:45.438 INFO  --- [MainThread] vame.model.rnn_vae : 83 : Training Model:  96%|#########5| 23/24 [01:13<00:02,  2.95s/epoch]
+2026-04-29 10:40:47.545 INFO  --- [MainThread] vame.model.rnn_vae : 366 : Train loss: 7194.374, MSE-Loss: 5484.492, MSE-Future-Loss 1703.194, KL-Loss: 5.271, Kmeans-Loss: 1.417, weight: 1.00
+2026-04-29 10:40:47.804 INFO  --- [MainThread] vame.model.rnn_vae : 492 : Test loss: 297.250, MSE-Loss: 292.950, KL-Loss: 3.596, Kmeans-Loss: 0.704
+2026-04-29 10:40:48.234 INFO  --- [MainThread] vame.model.rnn_vae : 926 : 
+
+2026-04-29 10:40:48.239 INFO  --- [MainThread] vame.model.rnn_vae : 83 : Training Model: 100%|##########| 24/24 [01:15<00:00,  2.90s/epoch]
+2026-04-29 10:40:48.239 INFO  --- [MainThread] vame.model.rnn_vae : 83 : Training Model: 100%|##########| 24/24 [01:15<00:00,  3.17s/epoch]
+2026-04-29 10:40:48.243 INFO  --- [MainThread] vame.model.rnn_vae : 929 : Finished training...
+2026-04-29 10:40:48.244 INFO  --- [MainThread] vame.model.rnn_vae : 930 : Model seems to have not reached convergence. You may want to check your model 
+with vame.evaluate_model(). If your satisfied you can continue. 
+Use vame.segment_session() to identify behavioral motifs! 
+OPTIONAL: You can re-run vame.train_model() to improve performance.
+2026-04-29 10:40:48.256 INFO  --- [MainThread] vame.model.rnn_vae : 943 : TensorBoard writer closed

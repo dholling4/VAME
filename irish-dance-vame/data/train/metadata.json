@@ -1,0 +1,237 @@
+{
+  "feature_mapping": [
+    {
+      "index": 0,
+      "keypoint": "nose",
+      "coordinate": "x",
+      "feature_name": "nose_x"
+    },
+    {
+      "index": 1,
+      "keypoint": "nose",
+      "coordinate": "y",
+      "feature_name": "nose_y"
+    },
+    {
+      "index": 2,
+      "keypoint": "left_shoulder",
+      "coordinate": "x",
+      "feature_name": "left_shoulder_x"
+    },
+    {
+      "index": 3,
+      "keypoint": "left_shoulder",
+      "coordinate": "y",
+      "feature_name": "left_shoulder_y"
+    },
+    {
+      "index": 4,
+      "keypoint": "right_shoulder",
+      "coordinate": "x",
+      "feature_name": "right_shoulder_x"
+    },
+    {
+      "index": 5,
+      "keypoint": "right_shoulder",
+      "coordinate": "y",
+      "feature_name": "right_shoulder_y"
+    },
+    {
+      "index": 6,
+      "keypoint": "left_elbow",
+      "coordinate": "x",
+      "feature_name": "left_elbow_x"
+    },
+    {
+      "index": 7,
+      "keypoint": "left_elbow",
+      "coordinate": "y",
+      "feature_name": "left_elbow_y"
+    },
+    {
+      "index": 8,
+      "keypoint": "right_elbow",
+      "coordinate": "x",
+      "feature_name": "right_elbow_x"
+    },
+    {
+      "index": 9,
+      "keypoint": "right_elbow",
+      "coordinate": "y",
+      "feature_name": "right_elbow_y"
+    },
+    {
+      "index": 10,
+      "keypoint": "left_wrist",
+      "coordinate": "x",
+      "feature_name": "left_wrist_x"
+    },
+    {
+      "index": 11,
+      "keypoint": "left_wrist",
+      "coordinate": "y",
+      "feature_name": "left_wrist_y"
+    },
+    {
+      "index": 12,
+      "keypoint": "right_wrist",
+      "coordinate": "x",
+      "feature_name": "right_wrist_x"
+    },
+    {
+      "index": 13,
+      "keypoint": "right_wrist",
+      "coordinate": "y",
+      "feature_name": "right_wrist_y"
+    },
+    {
+      "index": 14,
+      "keypoint": "right_hip",
+      "coordinate": "y",
+      "feature_name": "right_hip_y"
+    },
+    {
+      "index": 15,
+      "keypoint": "left_knee",
+      "coordinate": "x",
+      "feature_name": "left_knee_x"
+    },
+    {
+      "index": 16,
+      "keypoint": "left_knee",
+      "coordinate": "y",
+      "feature_name": "left_knee_y"
+    },
+    {
+      "index": 17,
+      "keypoint": "right_knee",
+      "coordinate": "x",
+      "feature_name": "right_knee_x"
+    },
+    {
+      "index": 18,
+      "keypoint": "right_knee",
+      "coordinate": "y",
+      "feature_name": "right_knee_y"
+    },
+    {
+      "index": 19,
+      "keypoint": "left_ankle",
+      "coordinate": "x",
+      "feature_name": "left_ankle_x"
+    },
+    {
+      "index": 20,
+      "keypoint": "left_ankle",
+      "coordinate": "y",
+      "feature_name": "left_ankle_y"
+    },
+    {
+      "index": 21,
+      "keypoint": "right_ankle",
+      "coordinate": "x",
+      "feature_name": "right_ankle_x"
+    },
+    {
+      "index": 22,
+      "keypoint": "right_ankle",
+      "coordinate": "y",
+      "feature_name": "right_ankle_y"
+    }
+  ],
+  "parameters": {
+    "read_from_variable": "position_scaled",
+    "keypoints_used": [
+      "nose",
+      "left_shoulder",
+      "right_shoulder",
+      "left_elbow",
+      "right_elbow",
+      "left_wrist",
+      "right_wrist",
+      "left_hip",
+      "right_hip",
+      "left_knee",
+      "right_knee",
+      "left_ankle",
+      "right_ankle"
+    ],
+    "keypoints_available": [
+      "nose",
+      "left_shoulder",
+      "right_shoulder",
+      "left_elbow",
+      "right_elbow",
+      "left_wrist",
+      "right_wrist",
+      "left_hip",
+      "right_hip",
+      "left_knee",
+      "right_knee",
+      "left_ankle",
+      "right_ankle"
+    ],
+    "centered_reference_keypoint": "left_hip",
+    "orientation_reference_keypoint": "right_hip",
+    "excluded_features": [
+      "left_hip_x",
+      "left_hip_y",
+      "right_hip_x"
+    ],
+    "total_features": 23,
+    "data_shape": [
+      23,
+      443
+    ]
+  },
+  "split_information": {
+    "split_mode": "mode_2",
+    "test_fraction": 0.15,
+    "sessions_used": [
+      "irish_dance_pose_dlc"
+    ],
+    "split_details": {
+      "method": "random_continuous_chunks",
+      "session_splits": [
+        {
+          "session": "irish_dance_pose_dlc",
+          "session_length": 443,
+          "test_chunk": {
+            "start": 102,
+            "end": 168
+          },
+          "train_chunks": [
+            {
+              "start": 0,
+              "end": 102
+            },
+            {
+              "start": 168,
+              "end": 443
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "data_info": {
+    "train": {
+      "shape": [
+        23,
+        377
+      ],
+      "total_samples": 377,
+      "features": 23
+    },
+    "test": {
+      "shape": [
+        23,
+        66
+      ],
+      "total_samples": 66,
+      "features": 23
+    }
+  },
+  "creation_timestamp": "2026-04-29T10:39:11.665152",
+  "vame_version": "0.13.0"
+}

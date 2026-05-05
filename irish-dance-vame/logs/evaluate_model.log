@@ -1,0 +1,6 @@
+[LOGGING STARTED AT: 2026-04-29 10-40-48]2026-04-29 10:40:48.443 INFO  --- [MainThread] vame.model.evaluate : 270 : Evaluation of model: VAME
+2026-04-29 10:40:48.615 INFO  --- [MainThread] vame.model.evaluate : 64 : Initialize test data. Datapoints 66
+2026-04-29 10:40:50.645 INFO  --- [MainThread] vame.model.evaluate : 290 : Evaluation finished successfully! You can find the results in: 'C:\Users\ano\Box\myBox\from bernard\VAME-1\irish-dance-vame/model/evaluate/'
+2026-04-29 10:40:50.659 INFO  --- [MainThread] vame.model.evaluate : 291 : Next steps:
+            - vame.segment_session() to identify behavioral motifs.
+            - re-run the model for further fine tuning. Check again with vame.evaluate_model()

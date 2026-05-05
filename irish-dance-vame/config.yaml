@@ -1,0 +1,105 @@
+# Project configurations
+vame_version: 0.13.0
+project_name: irish-dance-vame
+project_path: C:\Users\ano\Box\myBox\from bernard\VAME-1\irish-dance-vame
+creation_datetime: '2026-04-29T09:36:35+00:00'
+session_names:
+- irish_dance_pose_dlc
+project_random_state: 42
+
+# Data
+all_data: yes
+keypoints:
+- nose
+- left_shoulder
+- right_shoulder
+- left_elbow
+- right_elbow
+- left_wrist
+- right_wrist
+- left_hip
+- right_hip
+- left_knee
+- right_knee
+- left_ankle
+- right_ankle
+
+# Preprocessing:
+egocentric_data: false
+pose_confidence: 0.2
+robust: true
+iqr_factor: 4
+savgol_filter: true
+savgol_length: 5
+savgol_order: 2
+test_fraction: 0.1
+
+# RNN model general hyperparameter:
+model_name: VAME
+pretrained_model: None
+pretrained_weights: false
+num_features: 23
+batch_size: 64
+max_epochs: 25
+model_snapshot: 5
+model_convergence: 10
+transition_function: GRU
+beta: 1
+beta_norm: false
+zdims: 10
+learning_rate: 0.0005
+time_window: 20
+prediction_decoder: 1
+prediction_steps: 5
+noise: false
+scheduler: 1
+scheduler_step_size: 100
+scheduler_gamma: 0.2
+#Note the optimal scheduler threshold below can vary greatly (from .1-.0001) between experiments.
+#You are encouraged to read the torch.optim.ReduceLROnPlateau docs to understand the threshold to use.
+scheduler_threshold:
+softplus: false
+
+# Segmentation:
+n_clusters: 8
+segmentation_algorithms:
+- hmm
+- kmeans
+hmm_trained: false
+hmm_n_iter: 50
+individual_segmentation: false
+n_init_kmeans: 15
+
+# Video writer:
+length_of_motif_video: 1000
+
+# UMAP parameter:
+min_dist: 0.1
+n_neighbors: 200
+num_points: 30000
+
+#--------------------------------------------------------
+# ONLY CHANGE ANYTHING BELOW IF YOU ARE FAMILIAR WITH RNN MODELS
+# RNN encoder hyperparamter:
+hidden_size_layer_1: 256
+hidden_size_layer_2: 256
+dropout_encoder: 0
+
+# RNN reconstruction hyperparameter:
+hidden_size_rec: 256
+dropout_rec: 0
+n_layers: 1
+
+# RNN prediction hyperparamter:
+hidden_size_pred: 256
+dropout_pred: 0
+
+# RNN loss hyperparameter:
+mse_reconstruction_reduction: sum
+mse_prediction_reduction: sum
+kmeans_loss: 30
+kmeans_lambda: 0.1
+anneal_function: linear
+kl_start: 2
+annealtime: 4
+pose_estimation_filetype: csv
